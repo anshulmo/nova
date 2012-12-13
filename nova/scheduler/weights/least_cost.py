@@ -23,7 +23,10 @@ is then selected for provisioning.
 
 NOTE(comstud): This is deprecated. One should use the RAMWeigher and/or
 create other weight modules.
+
+we have started
 """
+
 
 from nova import exception
 from nova.openstack.common import cfg
