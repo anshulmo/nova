@@ -274,6 +274,7 @@ class FilterScheduler(driver.Scheduler):
                     filter_properties)
             best_host = weighed_hosts[0]
             LOG.debug(_("Choosing host %(best_host)s") % locals())
+	    LOG.debug(_("Anshul : uuid %(instance_uuids)") % locals())
             selected_hosts.append(best_host)
             # Now consume the resources so the filter/weights
             # will change for the next instance.
